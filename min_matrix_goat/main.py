@@ -37,6 +37,7 @@ def min_mat_mult_norder(matrices_dimensiones):
         return
 
     for valid_permutation in valids:
+        print(valid_permutation)
         outputs.append(min_multiplications(valid_permutation, {}))
 
     min_cost = min(outputs)
@@ -44,9 +45,9 @@ def min_mat_mult_norder(matrices_dimensiones):
 
 
 # Matrices que no se pueden multiplicar
-matrices_dimensiones_imposible = [(2, 3), (3, 5), (5, 2), (2, 4), (4, 3)]
-print(matrices_dimensiones_imposible)
-min_mat_mult_norder(matrices_dimensiones_imposible)
+#matrices_dimensiones_imposible = [(2, 3), (3, 5), (5, 2), (2, 4), (4, 3)]
+#print(matrices_dimensiones_imposible)
+#min_mat_mult_norder(matrices_dimensiones_imposible)
 
 # Matrices que se pueden multiplicar
 matrices_dimensiones_posible = [(2, 3), (3, 5), (5, 2), (2, 4), (4, 6), (6, 2)]
