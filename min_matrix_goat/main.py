@@ -57,3 +57,6 @@ min_mat_mult_norder(matrices_dimensiones_posible)
 matrices_dimensiones_posible = [(2, 3), (3, 5), (5, 2)]
 print(matrices_dimensiones_posible)
 min_mat_mult_norder(matrices_dimensiones_posible)
+
+
+#O(n!) :c
